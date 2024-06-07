@@ -1,0 +1,4 @@
+1 : Na estrutura do nó, será mantido o next e adicionado um ponteiro node<T>* list para apontar para os vizinhos na lista adjacência;
+2 : Fica aqui explicitada a decisão de projeto de denotar os sucessores de um nó na lista de adjacência por ponteiros dos sucessores;
+    2.1 : Tal decisão se baseia na intenção de reduzir o número de ijnterrupções de (controle de) processador quando se desejar percorrer o grafo ou realizar operações baseadas em percursão;
+    2.2 : Com isso, têm-se um aumento de custo na determinação de id.s de sucessores na lista de adjacência;
